@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="cal.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<body >
+    <div>
+        <h1>Tip Calculator</h1>
+    </div>
+    <div style="width: 720px;text-align: center;margin-left: 406px;">
+    <div class="row" style="border: 5px  solid rgba(0, 0, 0, 0.521);width: auto;">
+
+        <div class="column1">
+            <p>Enter the bill amount</p>
+            $<input id="billamount" type="number" placeholder="Bill Amount">
+            <p>Enter the tip percentage</p>
+            <input id="tip_percentage" type="number" placeholder="Tip %">%
+            <p>Enter the number people</p>
+            <input id="count" type="number">
+            <br> <br> <br>
+            <button type="button" id="calculate">Calculate</button>
+        </div>
+
+        <div class="column">
+            <form>
+                <p>Tip per person</p>
+                <h2 id="tipeach"></h2>
+            </form>
+            <form>
+                <p>Total per person</p>
+                <h2 id="toteach"></h2>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    </div>
+    <script src="cal.js"></script>
+</body>
+
+</html>
